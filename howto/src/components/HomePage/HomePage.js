@@ -8,7 +8,7 @@ const HomePage = () => {
 	    	</header>
 	    	<h3>Hello "userName"</h3>
 
-	    	<form className="formHomePage">
+	    	<div className="formHomePage">
 		    	<label htmlFor="create">Create a new How-To-Guide:</label>
 		    	<button className="createButton" name="create">Create</button>
 
@@ -16,9 +16,9 @@ const HomePage = () => {
 		    	<button className="editButton" name="edit">edit</button>
 
 		    	<label htmlFor="search">Search for a How-To-Guide:</label>
-		    	<input type="search" id="searchHomePage" name="search" />
 		     	<button className="searchButton" name="search">Search</button>
-	     	</form>
+	     	</div>
+
 	      	<section className="sectionHomePage">
 	       the section area for rendering
 	      </section>
