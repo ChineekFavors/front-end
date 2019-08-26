@@ -1,0 +1,69 @@
+html {
+	color: #9f7e69;
+	backGround-Color: #f2efc7;
+	
+}
+
+header.headerHomePage h1 {
+	
+	text-align: center;
+	font-size: 3.5rem;
+	margin-bottom: 10px;
+	
+
+}
+.h3-hello {
+	backGround-Color: white;
+	border-bottom: 1px dashed brown;
+	font-size: 1.3rem;
+	margin-bottom: 30px;
+	
+	
+}
+
+.formHomePage{
+	display:flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+div.formHomePage label{
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 10px;
+
+
+}
+
+div.formHomePage button{
+	font-size: 1.8rem;
+	width: 300px;
+	margin: 0 auto;
+	border: 1px dashed brown;
+	padding: 10px;
+	border-radius: 8%;
+	color: #9f7e69;
+	backGround-Color: #f7ffe0;
+	margin-bottom: 30px;
+}
+div.formHomePage button:hover {
+	backGround-Color: #9f7e69;
+	color: #f7ffe0;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,22 +1,25 @@
 import React from 'react';
 
+import style from './homePage.scss';
+
 const HomePage = () => {
   return (
 	    <div className="homepage">
-	    	<header>
+	    	
+	    	<header className="headerHomePage">
 	    		<h1>Home Page</h1>
 	    	</header>
-	    	<h3>Hello "userName"</h3>
+	    	<h3 className="h3-hello">Hello "userName"</h3>
 
 	    	<div className="formHomePage">
 		    	<label htmlFor="create">Create a new How-To-Guide:</label>
-		    	<button className="createButton" name="create">Create</button>
+		    	<button className="createButton" type="button" >Create</button>
 
 		    	<label htmlFor="edit">Edit a existing How-To-Guide:</label>
-		    	<button className="editButton" name="edit">edit</button>
+		    	<button className="editButton" type="button">edit</button>
 
 		    	<label htmlFor="search">Search for a How-To-Guide:</label>
-		     	<button className="searchButton" name="search">Search</button>
+		     	<button className="searchButton" type="button">Search</button>
 	     	</div>
 
 	      	<section className="sectionHomePage">
