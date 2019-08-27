@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 
 //components
-import LandingPage from './components/LandingPage/LandingPage';
-import HomePage from './components/HomePage/HomePage.js';
+
+import Create from './components/create/Create.js';
 
 function App() {
   return (
     <div className='App'>
-      <LandingPage />
-      <HomePage />
+     
+      <Create />
     </div>
   );
 }
